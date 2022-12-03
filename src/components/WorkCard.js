@@ -11,7 +11,9 @@ const WorkCard = (props) => {
            <div className="pro-details">
             <p> {props.text}</p>
             <div className="pro-btns">
-                <NavLink to="{props.view}" className="btn">view</NavLink>
+                {/* <NavLink to="https://prismatic-stardust-06f7c7.netlify.app/" className="btn">view</NavLink> */}
+                {/* console.log(props.view) */}
+               <button> <a href={props.view} >View</a></button>
                 <NavLink to="url.com" className="btn">source</NavLink>
 
             </div>

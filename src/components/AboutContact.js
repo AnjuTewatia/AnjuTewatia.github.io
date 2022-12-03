@@ -24,9 +24,9 @@ const AboutContact = () => {
             <div className="img-stack-top">
                 <img src={pro5} className="img" alt="true" />
         </div>
-        <div className="img-stack-bottem">
+        {/* <div className="img-stack-bottem">
                 <img src={pro2} className="img" alt="true" />
-        </div>
+        </div> */}
     </div>
     </div>
 </div>

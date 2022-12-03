@@ -1,28 +1,28 @@
-import pro1 from "../assests/pro1.png";
-import pro2 from "../assests/pro2.jpeg"
-import pro3 from "../assests/pro3.png"
+import bigbasket from "../assests/bigbasket.jpg";
+import youtube3 from "../assests/youtube3.jpg"
+import pro7 from "../assests/pro7.jpg"
 
 
 
 const ProjectCardData=[
     {
-        imgsrc:pro1,
-        title:"ecommerse website",
-        text:"ecommerse website dniofjn dhewioudjhjidorweur ndiwqoduj eidowuj hidouwed hfouewf eiwoduwe ioeufewj fhoieud ejdioweu hfiewuond hfuihewuifhew hfuiweh",
+        imgsrc:bigbasket,
+        title:"E-commerse website ",
+        text:"Big Basket is a E-commerse website in which user can buy the products as there requirement.",
+        view:"https://fascinating-syrniki-299085.netlify.app/"
+    
+    },
+    {
+        imgsrc:youtube3,
+        title:"YouTube",
+        text:"In Youtube  user can search any video as there requirement autoplay function also.",
         view:"https://prismatic-stardust-06f7c7.netlify.app/"
     
     },
     {
-        imgsrc:pro2,
-        title:"ecommerse website big basket",
-        text:"ecommerse website dniofjn dhewioudjhjidorweur ndiwqoduj eidowuj hidouwed hfouewf eiwoduwe ioeufewj fhoieud ejdioweu hfiewuond hfuihewuifhew hfuiweh",
-        view:"https://prismatic-stardust-06f7c7.netlify.app/"
-    
-    },
-    {
-        imgsrc:pro3,
+        imgsrc:pro7,
         title:"ecommerse website",
-        text:"ecommerse website dniofjn dhewioudjhjidorweur ndiwqoduj eidowuj hidouwed hfouewf eiwoduwe ioeufewj fhoieud ejdioweu hfiewuond hfuihewuifhew hfuiweh",
+        text:"ecommerse website dniofjn dhewioudjhjidorweur ndiwqoduj eidowuj hidouwed hfouewf ",
         view:"https://prismatic-stardust-06f7c7.netlify.app/"
     
     }

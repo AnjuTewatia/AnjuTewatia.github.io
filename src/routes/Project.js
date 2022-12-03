@@ -11,6 +11,7 @@ const Project = () => {
     <div className='App'>
       <Navbar />
       <HeroImg2  heading ="PROJECTS." text="someof my recent work" />
+      
     <Work/>
     <PricingCard />
       <Footer />
