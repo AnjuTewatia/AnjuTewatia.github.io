@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c540a399.css",
-    "main.js": "/static/js/main.e33b7bfb.js",
+    "main.js": "/static/js/main.1c8e30b2.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/IMG3.jpg": "/static/media/IMG3.7cbd76beac37282362cd.jpg",
     "static/media/Anju-Tewatia-Resume.pdf": "/static/media/Anju-Tewatia-Resume.076e976e3d4433eb038a.pdf",
@@ -10,11 +10,11 @@
     "static/media/profile.jpg": "/static/media/profile.565f0e5c8f7b79b35a3f.jpg",
     "index.html": "/index.html",
     "main.c540a399.css.map": "/static/css/main.c540a399.css.map",
-    "main.e33b7bfb.js.map": "/static/js/main.e33b7bfb.js.map",
+    "main.1c8e30b2.js.map": "/static/js/main.1c8e30b2.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c540a399.css",
-    "static/js/main.e33b7bfb.js"
+    "static/js/main.1c8e30b2.js"
   ]
 }
