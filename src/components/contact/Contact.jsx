@@ -10,22 +10,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setMessage(true);
-    // emailjs
-    //   .sendForm(
-    //     'service_k2qawqh',
-    //     'template_c6rkpn6',
-    //     formRef.current,
-    //     'X7K7ebhIeOy3YwHki'
-    //   )
-      // .then(
-      //   (result) => {
-      //     console.log(result.text);
-      //   },
-      //   (error) => {
-      //     console.log(error.text);
-      //   }
-      // );
-
+    
     e.target.reset();
   };
   return (
@@ -33,9 +18,9 @@ const Contact = () => {
       <h5 style={{color:"white"}}>Get In Touch</h5>
       <h5 style={{color:"white"}}>
         I do receive your messages and will respond asap if the valid email is
-        provided :)
+        provided :
       </h5>
-      <h2>Contact Me</h2>
+      <h2 style={{color:"white"}}>Contact Me</h2>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
@@ -45,7 +30,7 @@ const Contact = () => {
             <a href="anjutewatia008@gmail.com">Send a message</a>
           </article>
         </div>
-        <form ref={formRef} onSubmit={handleSubmit}>
+        <form action="https://formspree.io/f/xknedydb" method='POST'>
           <input
             type="text"
             placeholder="Your Full Name"
