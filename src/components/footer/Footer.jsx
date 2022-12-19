@@ -8,7 +8,7 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className='foot'>
       <a href="#home" className="footer__logo">Anju Tewatia</a>
       <ul className="permalinks">
         <li><a href="#home">Home</a></li>

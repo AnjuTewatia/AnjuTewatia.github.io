@@ -1,6 +1,5 @@
 
 import React, { useRef, useState } from 'react';
-// import emailjs from '@emailjs/browser';
 import { MdOutlineEmail } from 'react-icons/md';
 import './contact.css';
 
@@ -15,18 +14,14 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <h5 style={{color:"white"}}>Get In Touch</h5>
-      <h5 style={{color:"white"}}>
-        I do receive your messages and will respond asap if the valid email is
-        provided :
-      </h5>
+     
       <h2 style={{color:"white"}}>Contact Me</h2>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>anjutewatia008@gmail.com</h5>
+            <h5  style={{color:"white"}}>anjutewatia008@gmail.com</h5>
             <a href="anjutewatia008@gmail.com">Send a message</a>
           </article>
         </div>
@@ -52,7 +47,7 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
-          {message && <span>Thanks, I will reply Your messahe</span>}
+          {message && <span>Thanks, I will reply Your message</span>}
         </form>
       </div>
     </section>

@@ -29,14 +29,14 @@
 }
 
 .portfolio__item p {
-    margin: 0 0 1.2rem 0;
+    margin: 3px;
     font-size: 0.9rem;
 }
 
 .portfolio__item-cta {
     display: flex;
     gap: 1rem;
-    margin-bottom: 2rem; 
+   
 }
 
 .portfolio__item-content {
@@ -46,7 +46,7 @@
 @media screen and (max-width: 1024px){
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
+        /* gap: 1.2rem; */
     }
 }
   

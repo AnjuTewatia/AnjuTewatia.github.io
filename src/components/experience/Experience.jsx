@@ -2,11 +2,22 @@
 import React from 'react';
 import { BsFillPatchCheckFill } from 'react-icons/bs';
 import './experience.css';
+import JS1 from '../../assets/JS1.jpg';
+import HTML2 from"../../assets/HTML2.jpg"
+import CSS from"../../assets/CSS.jpg"
+import Node2 from"../../assets/Node2.jpg"
+import Mongo from"../../assets/Mongo.jpg"
+import IMG5 from"../../assets/IMG5.jpg"
+import Redux from"../../assets/Redux.jpg"
+import Chakra from "../../assets/Chakra.jpg";
+import Github5 from "../../assets/Github5.jpg"
+import EXP2 from "../../assets/EXP2.jpg"
+
+
 
 const Experience = () => {
   return (
     <section id="experience">
-      <h5 style={{color:"white"}}>The Skills I Have</h5>
       <h2 style={{color:"white"}}>Skills</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -14,34 +25,36 @@ const Experience = () => {
           <div className="experience__content">
           <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>HTML</h4>
+              <img style={{width:"30%"}} src={HTML2} alt="" />
+
             
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>CSS</h4>
+              <img style={{width:"30%"}} src={CSS} alt="" />
+
              
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>JavaScript</h4>
+              <img style={{width:"30%"}} src={JS1} alt="" />
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>React</h4>
+              <img style={{width:"30%"}} src={IMG5} alt="" />
+
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Redux</h4>
+              <img style={{width:"30%"}} src={Redux} alt="" />
+
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Charkra UI</h4>
+              <img style={{width:"30%"}} src={Chakra} alt="" />
+
             </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Next.js</h4>
-            </article>
+            
           </div>
         </div>
         <div className="experience__backend">
@@ -49,21 +62,27 @@ const Experience = () => {
           <div className="experience__content">
           <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Node</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>MOngoDB</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Git</h4>
+              <img style={{width:"30%"}} src={Node2} alt="" />
+
             </article>
            
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>GitHub</h4>
+              <img style={{width:"30%"}} src={Github5} alt="" />
+
             </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <img style={{width:"30%"}} src={Mongo} alt="" />
+
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <img style={{width:"30%"}} src={EXP2} alt="" />
+
+            </article>
+           
+           
           </div>
         </div>
       </div>
