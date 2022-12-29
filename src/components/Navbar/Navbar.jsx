@@ -6,15 +6,19 @@ import {TbGridDots} from 'react-icons/tb'
 const Navbar = () => {
     const [active, setActive] = useState('navBar');
     const showNavBar = () => {
-        setActive('navBar activeNavbar')
+        console.log("hello")
+        setActive('activeNavbar')
+        
     }
+    
     const removeNavBar = () => {
-        setActive('navBar ')
+        setActive('navBar')
     }
     const [activeHeader, setactiveHeader] = useState('header');
     const addBg = () =>{
         if(window.scrollY >=10){
             setactiveHeader('header activeHeader');
+            console.log("cclicked")
         }else{
             setactiveHeader('header');
         }
@@ -26,13 +30,13 @@ const Navbar = () => {
        <header className={activeHeader}>
      <div className="logoDiv">
         <h1 className='logo'>
-        <a href='#home'>" Anju Tewatia "</a>
+        <a href='#home'>"Anju"</a>
         </h1>
      </div>
      <div className={active}>
         <ul onClick={removeNavBar} className="navLists">
             <li className="navItem">
-                <a href="#headers" className="navLink"><span className='headerNumber'></span>Home</a>
+                <a href="#header" className="navLink"><span className='headerNumber'></span>Home</a>
             </li>
             <li className="navItem">
                 <a href="#intro" className="navLink"><span className='headerNumber'></span> About</a>

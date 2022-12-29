@@ -3,6 +3,7 @@ import React from 'react';
 import IMG1 from '../../assets/IMG1.jpg';
 import IMG2 from '../../assets/IMG2.jpg';
 import IMG3 from '../../assets/IMG3.jpg';
+import IMG4 from '../../assets/IMG4.png';
 
 import './portfolio.css';
 
@@ -14,7 +15,7 @@ const Portfolio = () => {
       img: IMG1,
       description:
         'Youtube Clone where user can search any song and any movies',
-      technologies: 'HTML | CSS |JAVASCRIPT',
+      techn: 'HTML | CSS |JAVASCRIPT',
       link: 'https://prismatic-stardust-06f7c7.netlify.app/',
       github: 'https://github.com/AnjuTewatia/Youbtube_clone',
     },
@@ -23,8 +24,8 @@ const Portfolio = () => {
       title: 'Big Basket',
       img:IMG2,
       description:
-        'Ecommerce Website where user can buy anything using Login oR Signup',
-      technologies: 'HTML |CSS | JAVASCRIPT',
+        'Ecommerce Website where user can buy anything using Login',
+      techn: 'HTML |CSS | JAVASCRIPT',
       link: 'https://fascinating-syrniki-299085.netlify.app/',
       github: 'https://github.com/AnjuTewatia/abrupt-cough-2319',
     },
@@ -34,11 +35,20 @@ const Portfolio = () => {
       img: IMG3,
       description:
         'Ecommerce Website where user can buy any Electronic Products',
-      technologies: 'React | JAVASCRIPT',
+      tech: 'React | JAVASCRIPT',
       link: 'https://ornate-bonbon-dab792.netlify.app/',
       github: 'https://github.com/AnjuTewatia/great-account-499/tree/main/my-app',
     },
-   
+   {
+    id:4,
+    title:"Kindmeal.md",
+    img:IMG4,
+    description:"In is website user can see diffrent types foods .",
+    tech:"Redux | React | Chakra UI",
+    link:"https://iridescent-biscochitos-61ac19.netlify.app/",
+    github:"https://github.com/SCjadhav21/Project_Food_Hub/tree/main/my-app"
+    
+   }
    
      
   ];
@@ -51,12 +61,12 @@ const Portfolio = () => {
         {soloProjects.map((pro) => (
           <article className="portfolio__item" key={pro.id}>
             <div className="portfolio__item-image">
-              <img  style={{height:"100%"}}src={pro.img} alt={pro.title} />
+              <img  src={pro.img} alt={pro.title} />
             </div>
             <div className="portfolio__item-content">
               <h3>{pro.title}</h3>
               <p>{pro.description}</p>
-              <p>{pro.technologies}</p>
+              <p>{pro.tech}</p>
             </div>
             <div className="portfolio__item-cta">
               <a

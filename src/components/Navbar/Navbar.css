@@ -83,15 +83,15 @@
     }
   }
   
-  .activeHeader {
-    background-color: var(--projectCardColor);
-    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
-  }
   
   @media screen and (min-width: 760px) {
-    .toggleNavBar, .closeNavBar {
-      display: none;
-    }
+      .toggleNavBar, .closeNavBar {
+          display: none;
+        }
+        .activeHeader {
+          background-color: var(--projectCardColor);
+          box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+        }
     .header {
       padding: 2.5rem 2rem;
     }
