@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
+    background-color: wheat;
 } 
 
 .contact__options {

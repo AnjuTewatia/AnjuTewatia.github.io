@@ -7,7 +7,6 @@ import Headers from './components/header/Header';
 import Intro from './components/intro/Intro';
 import Navbar from './components/Navbar/Navbar';
 import Portfolio from './components/portfolio/Portfolio';
-import Topbar from './components/topbar/Topbar';
 
 
 const App = () => {
@@ -15,7 +14,7 @@ const App = () => {
     <>
     <Navbar />
         <Headers />
-      {/* <Topbar /> */}
+     
        <Intro />
       <Experience />
       <Portfolio />

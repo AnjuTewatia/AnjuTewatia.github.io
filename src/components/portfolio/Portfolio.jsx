@@ -55,7 +55,7 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <h2 style={{color:"white"}}>PROJECTS</h2>
+      <h2  style={{color:"white"}}>PROJECTS</h2>
 
       <div className="container portfolio__container">
         {soloProjects.map((pro) => (

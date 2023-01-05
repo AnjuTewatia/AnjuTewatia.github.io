@@ -11,6 +11,7 @@
   text-decoration: none;
 }
 
+
 :root {
   --color-bg: rgb(27, 27, 70);
   --color-bg-variant: #2d2d4d;
@@ -109,11 +110,11 @@ a:hover {
   color: var(--color-bg);
 }
 
-img {
+/* img {
   display: block;
   width: 100%;
   object-fit: cover;
-}
+} */
 
 @media screen and (max-width: 1024px){
   .container {
