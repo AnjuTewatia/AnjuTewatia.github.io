@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.3d33e58b.css",
-    "main.js": "/static/js/main.72ebadf5.js",
+    "main.js": "/static/js/main.30a7078f.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/IMG4.png": "/static/media/IMG4.681a4727954894440a46.png",
     "static/media/Profile.png": "/static/media/Profile.7f7e5172a8204f4d7368.png",
-    "static/media/Anju-Tewatia-Resume.pdf": "/static/media/Anju-Tewatia-Resume.15dd56fe4204c110df70.pdf",
     "static/media/IMG1.jpg": "/static/media/IMG1.3dac39971273b6f5c9cd.jpg",
     "static/media/IMG2.jpg": "/static/media/IMG2.c23366920fc018009739.jpg",
     "index.html": "/index.html",
     "main.3d33e58b.css.map": "/static/css/main.3d33e58b.css.map",
-    "main.72ebadf5.js.map": "/static/js/main.72ebadf5.js.map",
+    "main.30a7078f.js.map": "/static/js/main.30a7078f.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d33e58b.css",
-    "static/js/main.72ebadf5.js"
+    "static/js/main.30a7078f.js"
   ]
 }
