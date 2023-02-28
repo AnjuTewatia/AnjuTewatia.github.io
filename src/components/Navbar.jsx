@@ -1,83 +1,122 @@
-import React from 'react';
-import {Flex,Box,Text,HStack,Button,Show, Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,Portal,Link} from "@chakra-ui/react";
-import './Navbar.css';
-import {HamburgerIcon} from "@chakra-ui/icons";
-import {ExternalLinkIcon} from "@chakra-ui/icons";
-import {Link as Rlink}  from "react-scroll";
-// import {CV} from "../assets/Anju-Tewatia-Resume.pdf"
+import React from "react";
+import styles from "./Nav.module.css";
+import {
+  Box,
+  Button,
+  Flex,
+  IconButton,
+  Text,
+  useColorMode,
+  Hide,
+  Show,
+} from "@chakra-ui/react";
+import { Link } from "react-scroll";
+import Sidebar from "./Sidebar";
 
+const Navbar = () => {
+  const URL="https://drive.google.com/file/d/1Us6dhEC97HcvpToI1Aat-CMnIo1sVjvQ/view?usp=share_link"
 
-const link = [
-  { id : "home",
-    title: "Home"
-  },
-  { id : "about",
-    title: "About Me"
-  },
-  { id : "skill",
-    title: "Skills"
-  },
-  { id : "project",
-    title: "Project"
-  },
-  { id : "contact",
-    title: "Contact"
-  
-  }
-];
-
-const navbar = () => {
-  const URL="https://drive.google.com/file/d/1X_l9mqOUxG-x716O5b0CF8bl-wB00ptK/view"
 
   return (
-    <div className="navbar">
-      <Box width="100%" color="white">
-      <Flex justifyContent="space-evenly" >
-    <Box  textAlign="center" >
-      <Text  fontSize="3xl" >
-       Anju 
-      </Text>
-    </Box> 
-    <Show above='md'>
-    <HStack className='link-stack' fontSize="3xl">
-    {link.map((e) => (
-        <Rlink key={e.id} activeClass="active" to={e.id} spy={true} smooth={true} duration={100}>{e.title}</Rlink>
-      ))}
-    </HStack>
-    </Show>
-    <Show below='md'>
-    <Menu>
-  <MenuButton><HamburgerIcon boxSize="3em"/></MenuButton>
-  <Portal>
-    <MenuList fontSize="1xl">
-    {link.map((e) => (
-      <MenuItem key={e.id}>
-      <Rlink activeClass="active" to={e.id} spy={true} smooth={true} duration={1500}>{e.title}</Rlink>
-      </MenuItem>
-      ))}
-    </MenuList>
+    <>
+      <Box className={styles.main}>
+        <Box className={styles.left}>
+          <Box className={styles.name}>
+            <Flex>
+              <span>
+                <Link to="Navbar" spy={true} smooth={true}>
+                  <Text cursor="pointer">Anju</Text>
+                </Link>
+              </span>
+              <span>
+                <Link to="Navbar" spy={true} smooth={true}>
+                  <Text cursor="pointer" color={"#Red "}>
+                    Tewatia
+                  </Text>
+                </Link>
+              </span>
+            </Flex>
+          </Box>
+        </Box>
+        <Box className={styles.right}>
+          <Hide below="md">
+            <Box className={styles.list}>
+              <ul>
+                <li>
+                  <Link
+                    activeClass="active"
+                    to="home"
+                    offset={-55}
+                    spy={true}
+                    smooth={true}
+                  >
+                    <Text fontWeight={"medium"} color="white">
+                      HOME
+                    </Text>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="about" spy={true} smooth={true} offset={-50}>
+                    <Text fontWeight={"medium"} color="white">
+                      ABOUT{" "}
+                    </Text>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="skill" spy={true} offset={-50} smooth={true}>
+                    <Text fontWeight={"medium"} color="white">
+                      {" "}
+                      SKILLS{" "}
+                    </Text>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="tool" spy={true} offset={-50} smooth={true}>
+                    <Text fontWeight={"medium"} color="white">
+                      {" "}
+                TOOLS{" "}
+                    </Text>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="project" offset={-175} spy={true} smooth={true}>
+                    <Text fontWeight={"medium"} color="white">
+                      PROJECTS{" "}
+                    </Text>
+                  </Link>
+                </li>
+              </ul>
+            </Box>
+          </Hide>
 
-   
-  </Portal>
-</Menu>
+          <Hide below="sm">
+            <Link to="contact" spy={true} smooth={true}>
+              <Button
+                colorScheme={"#67dcfa"}
+                color="white"
+                size={"sm"}
+                mt={1.5}
+                fontWeight={"medium"}
+                outline="none"
+                _focus={{ outline: "none" }}
+              >
+                <Text color="white">CONTACT ME </Text>{" "}
+              </Button>
+            </Link>
+          </Hide>
+          <Hide below="sm">
+          <Button bg="white" mt={5} ml={14} ><a style={{border:"none"}} onClick={()=>window.open(URL,"_blank")} href= "fp06_350-Anju-Tewatia-Resume.pdf" download="fp06_350-Anju-Tewatia-Resume.pdf" className="btn" target="_blank">
+       Resume
+      </a>  </Button>
+          </Hide>
 
-    </Show>
-   
-    
- 
-    
-    
-   
-  </Flex>
-
+          <Show below="md">
+            <Sidebar />
+          </Show>
+        </Box>
       </Box>
-      
-    </div>
-  
-  )
-}
+    </>
+  );
+};
 
-export default navbar
+export default Navbar;

@@ -18,7 +18,7 @@ import {SettingsIcon,ExternalLinkIcon} from "@chakra-ui/icons";
 import IMG1 from "../assets/IMG1.jpg";
 import IMG2 from "../assets/IMG2.jpg";
 import IMG4 from "../assets/IMG4.png";
-
+import IMG5 from "../assets/IMG5.jpg";
 
 const project_data = [
   {  id:1,
@@ -47,12 +47,23 @@ const project_data = [
   github : "https://github.com/SCjadhav21/Project_Food_Hub/tree/main/my-app",
   deploy : "https://iridescent-biscochitos-61ac19.netlify.app/",
   TechStack : "Redux | React | Chakra UI"
+},
+{
+  id:4,
+  project_name:"Easy Buy",
+  detail:" From Easy buy  website you can buy any product like Electronics Health and Clothes",
+  creater:"Solo Project",
+  image:IMG5,
+  github:"https://github.com/AnjuTewatia/radioactive",
+  deploy:"https://radioactive-1mzo.vercel.app/",
+  TechStack:" React | Redux| Mongo Db | Express |Chakra UI"
 }
+
 ];
 
 const Project = () => {
   return (
-    <Box mt={240} id="project">
+    <Box mt={20} id="project">
       <Heading
             lineHeight={1.1}
             fontWeight={600}
@@ -94,7 +105,7 @@ const Project = () => {
           <Stack flex={1} spacing={{ base: 5, md: 10 }}>
             <Heading
               lineHeight={1.1}
-              fontWeight={400}
+              fontWeight={200}
               fontSize={{ base: '2xl', sm: '3xl', lg: '5xl' }}>
               <Text
                 as={'span'}
@@ -105,7 +116,7 @@ const Project = () => {
             </Heading>
             <List spacing={3} color='gray.400'>
                 <ListItem>
-                  <ListIcon as={SettingsIcon} color='blue.400' fontSize={'xl'} />
+                  <ListIcon as={SettingsIcon} color='blue.400' fontSize={'xl'}  />
                   {
                     project.detail
                   }
@@ -135,6 +146,7 @@ const Project = () => {
               <Button
                 rounded={'full'}
                 size={'lg'}
+               
                 fontWeight={'normal'}
                 px={6}
                 colorScheme={'blue'}

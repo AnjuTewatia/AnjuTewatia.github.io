@@ -11,7 +11,7 @@ const AboutMe = () => {
 
   return (
     
-    <Box id="about" mt={120}>
+    <Box id="about" mt={90}>
       <Heading
             lineHeight={1.1}
             fontWeight={600}

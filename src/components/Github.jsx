@@ -50,6 +50,9 @@ function Github() {
            <Box w={{base:'90%',md:"60%",lg:'40%'}} align="center" margin="auto">
             <Image src="https://github-readme-stats.vercel.app/api?username=AnjuTewatia&show_icons=true&locale=en&theme=dark&border_radius=15" alt="git"/>
            </Box>
+           <Box w={{base:'90%',md:"60%",lg:'40%'}} align="center" margin="auto">
+            <Image src="https://github-readme-stats.vercel.app/api/top-langs?username=AnjuTewatia&show_icons=true&locale=en&theme=dark&border_radius=15" alt="git"/>
+           </Box>
        </Flex>
        </Box>
     </Box>
@@ -57,3 +60,6 @@ function Github() {
 }
 
 export default Github
+
+
+
