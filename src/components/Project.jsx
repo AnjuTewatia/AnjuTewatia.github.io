@@ -19,6 +19,7 @@ import IMG1 from "../assets/IMG1.jpg";
 import IMG2 from "../assets/IMG2.jpg";
 import IMG4 from "../assets/IMG4.png";
 import IMG5 from "../assets/IMG5.jpg";
+imoprt IMG7 from "../assests/IMG7.png;
 
 const project_data = [
   {  id:1,
@@ -57,7 +58,18 @@ const project_data = [
   github:"https://github.com/AnjuTewatia/radioactive",
   deploy:"https://radioactive-1mzo.vercel.app/",
   TechStack:" React | Redux| Mongo Db | Express |Chakra UI"
-}
+},
+  {
+
+      id:5,
+  project_name:"Big Basket",
+  detail:" From Easy buy  website you can buy any  Food product  and Kitchen Utensils",
+  creater:"Group Project",
+  image:IMG7,
+  github:"https://github.com/AnjuTewatia/Big_Basket",
+  deploy:"https://myapp-lmm0a2ad5-anjutewatia.vercel.app/",
+  TechStack:" React | Redux| Mongo Db | Express | NodeJS"
+  }
 
 ];
 
