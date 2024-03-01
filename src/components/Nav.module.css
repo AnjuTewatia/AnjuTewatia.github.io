@@ -38,10 +38,13 @@
   }
   .list > ul > li:hover {
     cursor: pointer;
-    color: rgba(240, 209, 209, 0);
-    text-decoration: underline;
+    /* color: rgba(240, 209, 209, 0); */
+    /* text-decoration: underline; */
   
     font-weight: 5000;
+  }
+  #gandabtn:hover{
+   background-color: none;
   }
   
   @media screen and (max-width: 480px) {

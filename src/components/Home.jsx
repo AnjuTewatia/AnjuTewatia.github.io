@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <Box h={{base:"auto",md:"70vh"}} id="home">
       <SimpleGrid columns={{sm: 1, md: 2}} justifyContent="space-around" mt={[0, 4, 6, 8]}>
-        <Box p={[4, 8, 14, 20]} textAlign={{ md:"left"}} spacing={50}>
+        <Box p={[4, 8, 14, 20]} textAlign={{ md:"left"}} spacing={50} mt={"25px"}>
           <Heading sixe="xl" mt={3} ml={50}>Hello, World!</Heading>
           <Heading size="xl" mt={4} ml={50}>I am Anju Tewatia</Heading>
           <Heading size='md' mt={3} ml={50}>FULL STACK WEB DEVELOPER</Heading>

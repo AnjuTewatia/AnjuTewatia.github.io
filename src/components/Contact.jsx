@@ -18,7 +18,7 @@ const Contact = () => {
   return (
     <section id="contact">
      
-      <h1 style={{color:"white",fontSize:"50px",marginBottom:"50px",marginTop:"60px"}}>Contact Me</h1>
+      <h1 style={{color:"white",fontSize:"50px",marginBottom:"50px",marginTop:"80px"}}>Contact Me</h1>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
