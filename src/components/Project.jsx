@@ -28,7 +28,7 @@ const project_data = [
     creater : "This was a solo project Developed with 5 Days",
     image : IMG1,
     github : "https://github.com/AnjuTewatia/Youbtube_clone",
-    deploy : "https://prismatic-stardust-06f7c7.netlify.app/",
+    deploy : "https://youbtube-clone-4mrtaj97y-anjutewatia.vercel.app/",
     TechStack : "HTML | CSS | JAVASCRIPT "
  },
  {  id:2,
