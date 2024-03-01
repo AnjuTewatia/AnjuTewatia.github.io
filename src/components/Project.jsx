@@ -19,7 +19,6 @@ import IMG1 from "../assets/IMG1.jpg";
 import IMG2 from "../assets/IMG2.jpg";
 import IMG4 from "../assets/IMG4.png";
 import IMG5 from "../assets/IMG5.jpg";
-import bigg15 from "../assets/bigg15.png";
 
 // project links
 const project_data = [
@@ -30,19 +29,19 @@ const project_data = [
     creater: "This was a solo project Developed with 5 Days",
     image: IMG1,
     github: "https://github.com/AnjuTewatia/Youbtube_clone",
-    deploy: "https://youbtube-clone-4mrtaj97y-anjutewatia.vercel.app/",
+    deploy: "https://prismatic-stardust-06f7c7.netlify.app/",
     TechStack: "HTML | CSS | JAVASCRIPT ",
   },
-  // {
-  //   id: 2,
-  //   project_name: "Big Basket",
-  //   detail: "Big Basket Online Shopping Faster on Info.Com. Make Inquiries.",
-  //   creater: "A group project Developed within 5 days.",
-  //   image: IMG2,
-  //   github: "https://github.com/AnjuTewatia/abrupt-cough-2319",
-  //   deploy: "https://fascinating-syrniki-299085.netlify.app/",
-  //   TechStack: "HTML |CSS | JAVASCRIPT",
-  // },
+  {
+    id: 2,
+    project_name: "Big Basket",
+    detail: "Big Basket Online Shopping Faster on Info.Com. Make Inquiries.",
+    creater: "A group project Developed within 5 days.",
+    image: IMG2,
+    github: "https://github.com/AnjuTewatia/abrupt-cough-2319",
+    deploy: "https://fascinating-syrniki-299085.netlify.app/",
+    TechStack: "HTML |CSS | JAVASCRIPT",
+  },
   {
     id: 3,
     project_name: "Kindmeal.md",
@@ -62,20 +61,8 @@ const project_data = [
     creater: "Solo Project",
     image: IMG5,
     github: "https://github.com/AnjuTewatia/radioactive",
-    deploy:
-      "https://65e1cd848759c2d14b15c4e0--flourishing-griffin-3ed18b.netlify.app/",
+    deploy: "https://radioactive-1mzo.vercel.app/",
     TechStack: " React | Redux| Mongo Db | Express |Chakra UI",
-  },
-  {
-    id: 5,
-    project_name: "Big Basket",
-    detail:
-      " From Easy buy  website you can buy any  Food product  and Kitchen Utensils",
-    creater: "Group Project",
-    image: bigg15,
-    github: "https://github.com/AnjuTewatia/Big_Basket",
-    deploy: "https://myapp-lmm0a2ad5-anjutewatia.vercel.app/",
-    TechStack: " React | Redux| Mongo Db | Express | NodeJS",
   },
 ];
 
