@@ -56,7 +56,7 @@ const project_data = [
   creater:"Solo Project",
   image:IMG5,
   github:"https://github.com/AnjuTewatia/radioactive",
-  deploy:"https://65e1cd848759c2d14b15c4e0--flourishing-griffin-3ed18b.netlify.app/checkout",
+  deploy:"https://65e1cd848759c2d14b15c4e0--flourishing-griffin-3ed18b.netlify.app/",
   TechStack:" React | Redux| Mongo Db | Express |Chakra UI"
 },
   {
