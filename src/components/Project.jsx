@@ -21,6 +21,7 @@ import IMG4 from "../assets/IMG4.png";
 import IMG5 from "../assets/IMG5.jpg";
 imoprt IMG7 from "../assests/IMG7.png;
 
+// project links
 const project_data = [
   {  id:1,
     project_name : "Youtube-Clone",
